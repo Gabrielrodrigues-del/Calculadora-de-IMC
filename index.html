@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img class="logo" src="./Gemini_Generated_Image_ry027qry027qry02.png" alt="Logo Rurik" />
+
+    <h1>Calculadora de IMC</h1>
+
+    <form id="imcForm">
+      <div class="campo">
+        <label for="peso">Peso (kg)</label>
+        <input type="number" id="peso" step="0.01" min="0.01" placeholder="Ex: 68.50" />
+      </div>
+
+      <div class="campo">
+        <label for="altura">Altura (m)</label>
+        <input type="number" id="altura" step="0.01" min="0.01" placeholder="Ex: 1.72" />
+      </div>
+
+      <button type="submit">Calcular IMC</button>
+    </form>
+
+    <div id="resultado" class="resultado">
+      <h2>Resultado</h2>
+      <p class="valor">--</p>
+      <p class="mensagem">Preencha os dados para ver o resultado.</p>
+    </div>
+
+    <div class="footer">Desenvolvido por: Rurik Gomes</div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
